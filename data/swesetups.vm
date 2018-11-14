@@ -1,0 +1,404 @@
+[
+{
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "ENTITY",
+    "wfEntityAction" : "CREATE",
+    "flowCode" : "MAKER",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/entity",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "ENTITY",
+    "wfEntityAction" : "CREATE",
+    "flowCode" : "CHECKER",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/entity",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "ROLE",
+    "wfEntityAction" : "CREATE",
+    "flowCode" : "MAKER",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/role",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "ROLE",
+    "wfEntityAction" : "CREATE",
+    "flowCode" : "CHECKER",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/role",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "APPLICATION",
+    "wfEntityAction" : "CREATE",
+    "flowCode" : "MAKER",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/application",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "APPLICATION",
+    "wfEntityAction" : "CREATE",
+    "flowCode" : "CHECKER",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/application",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "USER",
+    "wfEntityAction" : "CREATE",
+    "flowCode" : "MAKER",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/user",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "USER",
+    "wfEntityAction" : "CREATE",
+    "flowCode" : "CHECKER",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/user",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "ENTITY",
+    "wfEntityAction" : "UPDATE",
+    "flowCode" : "MAKER",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/entity",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "ENTITY",
+    "wfEntityAction" : "UPDATE",
+    "flowCode" : "CHECKER",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/entity",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "ROLE",
+    "wfEntityAction" : "UPDATE",
+    "flowCode" : "MAKER",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/role",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "ROLE",
+    "wfEntityAction" : "UPDATE",
+    "flowCode" : "CHECKER",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/role",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "APPLICATION",
+    "wfEntityAction" : "UPDATE",
+    "flowCode" : "MAKER",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/application",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "APPLICATION",
+    "wfEntityAction" : "UPDATE",
+    "flowCode" : "CHECKER",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/application",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "USER",
+    "wfEntityAction" : "UPDATE",
+    "flowCode" : "MAKER",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/user",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "USER",
+    "wfEntityAction" : "UPDATE",
+    "flowCode" : "CHECKER",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/user",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "MENU",
+    "wfEntityAction" : "CREATE",
+    "flowCode" : "AA",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/menu",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "MENU",
+    "wfEntityAction" : "UPDATE",
+    "flowCode" : "AA",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/menu",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "CONTACT",
+    "wfEntityAction" : "CREATE",
+    "flowCode" : "AA",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/contact",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "CONTACT",
+    "wfEntityAction" : "UPDATE",
+    "flowCode" : "AA",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/contact",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "LOOKUP",
+    "wfEntityAction" : "CREATE",
+    "flowCode" : "AA",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/lookup",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "LOOKUP",
+    "wfEntityAction" : "UPDATE",
+    "flowCode" : "AA",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/lookup",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "MASTERCURRENCY",
+    "wfEntityAction" : "CREATE",
+    "flowCode" : "AA",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/masterCurrency",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "MASTERCURRENCY",
+    "wfEntityAction" : "UPDATE",
+    "flowCode" : "AA",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/masterCurrency",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "MASTERTIMEZONE",
+    "wfEntityAction" : "CREATE",
+    "flowCode" : "AA",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/masterTimeZone",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "MASTERTIMEZONE",
+    "wfEntityAction" : "UPDATE",
+    "flowCode" : "AA",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/masterTimeZone",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "SUPPORTEDDATEFORMATS",
+    "wfEntityAction" : "CREATE",
+    "flowCode" : "AA",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/supportedDateFormats",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "SUPPORTEDDATEFORMATS",
+    "wfEntityAction" : "UPDATE",
+    "flowCode" : "AA",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/supportedDateFormats",
+    "callbackMethod" : "put",
+    "__v" : 0
+},
+{
+    "enabled" : "true",
+    "tenantId" : "$tenantId",
+    "wfEntity" : "BILL",
+    "wfEntityAction" : "UPDATE",
+    "flowCode" : "MAKER",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "$date",
+    "updatedDate" : "$date",
+    "callbackURL" : "http://$ip/api/private/api/billing",
+    "callbackMethod" : "put",
+    "__v" : 0
+
+}]

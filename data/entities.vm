@@ -1,0 +1,18 @@
+ [
+  {
+  "enableFlag": "true",
+  "processingStatus": "AUTHORIZED",
+  "name": "HeadOffice$tenantId",
+  "entityCode": "HO$tenantId",
+  "description": "Head office branch of $tenantId",
+  "parent": "HEADOFFICE",
+  "tenantId": "$tenantId",
+  "accessLevel": "0",
+  "createdBy": "System",
+  "createdDate":"$date",
+  "lastUpdatedDate":"$date",
+  "entityId": "$entityId",
+  "wfInstanceId" : "",
+  "activationStatus":"ACTIVE"
+
+}]

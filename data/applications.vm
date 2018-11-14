@@ -1,0 +1,54 @@
+[
+    {
+    "enableFlag": "true",
+    "applicationName": "SANDSTORM",
+    "description": " SANDSTORM Application, $tenantId",
+    "applicationCode": "SANDSTORM",
+    "createdBy": "SYSTEM",
+    "logo": "",
+    "favicon": "",
+    "entityId": "$entityId",
+    "accessLevel": "0",
+    "tenantId": "$tenantId",
+    "createdDate": "$date",
+    "lastUpdatedDate": "$date",
+    "processingStatus": "AUTHORIZED",
+    "wfInstanceId" : "ddss",
+    "wfInstanceStatus" : "APPROVED"
+  },
+  {
+
+    "enableFlag": "true",
+    "applicationName": "Corporate Direct Access",
+    "description": "Flux CDA",
+    "applicationCode": "FLUX_CDA",
+    "createdBy": "SYSTEM",
+    "logo": "",
+    "favicon": "",
+    "entityId": "$entityId",
+    "accessLevel": "0",
+    "tenantId": "$tenantId",
+    "createdDate": "$date",
+    "lastUpdatedDate": "$date",
+    "updatedBy": "sriharig",
+    "wfInstanceId" : ""
+   
+  },
+  {
+    "enableFlag" : "true",
+    "applicationName" : "CHARGES",
+    "description" : " CHARGES Application",
+    "applicationCode" : "CHARGES",
+    "createdBy" : "SYSTEM",
+    "logo" : "",
+    "favicon" : "",
+    "entityId" : "$entityId",
+    "accessLevel" : "0",
+    "tenantId" : "$tenantId",
+    "createdDate" : "$date",
+    "lastUpdatedDate" : "$date",
+    "processingStatus" : "AUTHORIZED",
+    "wfInstanceId" : "ddss",
+    "wfInstanceStatus" : "APPROVED"
+}
+]

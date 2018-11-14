@@ -1,0 +1,16 @@
+ [
+  {
+  "enableFlag": "true",
+  "formatCode": "DD/MM/YYYY",
+  "timeFormat": "hh:mm:ss",
+  "description": "Updated the supportedDateFormats at: 1530861806326",
+  "createdDate": "$date",
+  "lastUpdatedDate": "$date",
+  "createdBy": "SYSTEM",
+  "updatedBy": "SYSTEM",
+  "objVersion": 1,
+  "tenantId": "$tenantId",
+  "processingStatus": "AUTHORIZED",
+  "wfInstanceId" : ""
+
+}]

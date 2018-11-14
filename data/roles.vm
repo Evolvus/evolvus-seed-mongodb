@@ -1,0 +1,752 @@
+[
+    {
+    "txnType" : [],
+    "selectedFlag" : false,
+    "activationStatus" : "ACTIVE",
+    "processingStatus" : "AUTHORIZED",
+    "roleName" : "CDAMAKER",
+    "applicationCode" : "FLUX_CDA",
+    "description" : "CDA maker role.",
+    "menuGroup" : [ 
+        {
+            "menuItems" : [ 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "FLUX_CDA",
+                    "menuItemCode" : "bulkupload",
+                    "title" : "Bulk Upload",
+                    "icon" : "",
+                    "link" : "/bulkupload",
+                    "menuItemOrder" : 0.0,
+                    "subMenuItems" : [],
+                    "selectedFlag" : true
+                }, 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "FLUX_CDA",
+                    "menuItemCode" : "mandate",
+                    "title" : "Nach Mandates",
+                    "icon" : "",
+                    "link" : "/mandate",
+                    "menuItemOrder" : 2.0,
+                    "subMenuItems" : [],
+                    "selectedFlag" : true
+                }, 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "FLUX_CDA",
+                    "menuItemCode" : "outwardpayment",
+                    "title" : "Outward Payments",
+                    "icon" : "",
+                    "link" : "",
+                    "menuItemOrder" : 4.0,
+                    "subMenuItems" : [],
+                    "selectedFlag" : true
+                }, 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "FLUX_CDA",
+                    "menuItemCode" : "enquiry",
+                    "title" : "Enquiry",
+                    "icon" : "",
+                    "link" : "/enquiry",
+                    "menuItemOrder" : 4.0,
+                    "subMenuItems" : [],
+                    "selectedFlag" : true
+                }, 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "FLUX_CDA",
+                    "menuItemCode" : "dashboard",
+                    "title" : "Dashboard",
+                    "icon" : "",
+                    "link" : "/dashboard",
+                    "menuItemOrder" : 4.0,
+                    "subMenuItems" : [],
+                    "selectedFlag" : true
+                }, 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "FLUX_CDA",
+                    "menuItemCode" : "reports",
+                    "title" : "Reports",
+                    "icon" : "",
+                    "link" : "/reports",
+                    "menuItemOrder" : 4.0,
+                    "subMenuItems" : [],
+                    "selectedFlag" : true
+                }, 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "FLUX_CDA",
+                    "menuItemCode" : "filesummary",
+                    "title" : "File Summary",
+                    "icon" : "",
+                    "link" : "/filesummary",
+                    "menuItemOrder" : 5.0,
+                    "subMenuItems" : [],
+                    "selectedFlag" : true
+                }, 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "FLUX_CDA",
+                    "menuItemCode" : "captureEmandate",
+                    "title" : "Capture Emandate",
+                    "icon" : "",
+                    "link" : "/captureEmandate",
+                    "menuItemOrder" : 4.0,
+                    "subMenuItems" : [],
+                    "selectedFlag" : true
+                }
+            ],
+            "deletedFlag" : 0.0,
+            "selectedFlag" : false,
+            "menuGroupCode" : "matmenugroup",
+            "title" : "MainMenu",
+            "applicationCode" : "FLUX_CDA",
+            "tenantId" : "$tenantId",
+            "createdBy" : "SYSTEM",
+            "menuGroupOrder" : 1.0,
+            "createdDate" :"$date",
+            "lastUpdatedDate" : "$date",
+            "wfInstanceId" : "dsgsgs"
+        }, 
+        {
+            "menuItems" : [ 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "FLUX_CDA",
+                    "menuItemCode" : "enquiry1",
+                    "title" : "File Enquiry",
+                    "icon" : "assets/images/Artboard 2.svg",
+                    "link" : "/enquiry",
+                    "menuItemOrder" : 0.0,
+                    "subMenuItems" : [],
+                    "selectedFlag" : true
+                }, 
+                {
+                    "menuItemType" : "submenu",
+                    "applicationCode" : "FLUX_CDA",
+                    "menuItemCode" : "filesummary",
+                    "title" : "File Summary",
+                    "icon" : "assets/images/file-summary.svg",
+                    "link" : "",
+                    "menuItemOrder" : 1.0,
+                    "subMenuItems" : [ 
+                        {
+                            "menuItemType" : "submenu",
+                            "applicationCode" : "FLUX_CDA",
+                            "menuItemCode" : "mandateuploadgrid",
+                            "title" : "Mandate File Summary",
+                            "icon" : "",
+                            "link" : "/mandateuploadgrid",
+                            "menuItemOrder" : 0.0,
+                            "selectedFlag" : true
+                        }, 
+                        {
+                            "menuItemType" : "submenu",
+                            "applicationCode" : "FLUX_CDA",
+                            "menuItemCode" : "paymentuploadgrid",
+                            "title" : "Payment File Summary",
+                            "icon" : "",
+                            "link" : "/paymentuploadgrid",
+                            "menuItemOrder" : 1.0,
+                            "selectedFlag" : true
+                        }
+                    ],
+                    "selectedFlag" : true
+                }
+            ],
+            "deletedFlag" : 0.0,
+            "selectedFlag" : false,
+            "menuGroupCode" : "bulkmenugroup",
+            "title" : "BulkUploadMenu",
+            "applicationCode" : "FLUX_CDA",
+            "tenantId" : "$tenantId",
+            "createdBy" : "SYSTEM",
+            "menuGroupOrder" : 2.0,
+            "createdDate" : "$date",
+            "lastUpdatedDate" : "$date",
+            "wfInstanceId" : "fesff"
+        }
+    ],
+    "roleType" : "MAKER",
+    "associatedUsers" : 5.0,
+    "tenantId" : "$tenantId",
+    "createdBy" : "SYSTEM",
+    "entityId" : "$entityId",
+    "createdDate" : "$date",
+    "lastUpdatedDate" : "$date",
+    "wfInstanceId" : "j-IQqWABT",
+    "updatedBy" : "SYSTEM"
+},
+    {
+    "txnType" : [],
+    "selectedFlag" : false,
+    "activationStatus" : "ACTIVE",
+    "processingStatus" : "AUTHORIZED",
+    "roleName" : "CDACHECKER",
+    "applicationCode" : "FLUX_CDA",
+    "description" : "CDA Checker",
+    "menuGroup" : [ 
+        {
+            "menuItems" : [ 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "FLUX_CDA",
+                    "menuItemCode" : "bulkupload",
+                    "title" : "Bulk Upload",
+                    "icon" : "",
+                    "link" : "/bulkupload",
+                    "menuItemOrder" : 0,
+                    "subMenuItems" : [],
+                    "selectedFlag" : true
+                }, 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "FLUX_CDA",
+                    "menuItemCode" : "mandate",
+                    "title" : "Nach Mandates",
+                    "icon" : "",
+                    "link" : "/mandate",
+                    "menuItemOrder" : 2,
+                    "subMenuItems" : [],
+                    "selectedFlag" : true
+                }, 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "FLUX_CDA",
+                    "menuItemCode" : "emandate",
+                    "title" : "Emandates",
+                    "icon" : "",
+                    "link" : "",
+                    "menuItemOrder" : 4,
+                    "subMenuItems" : [],
+                    "selectedFlag" : true
+                }, 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "FLUX_CDA",
+                    "menuItemCode" : "outwardpayment",
+                    "title" : "Outward Payments",
+                    "icon" : "",
+                    "link" : "",
+                    "menuItemOrder" : 4,
+                    "subMenuItems" : [],
+                    "selectedFlag" : true
+                }, 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "FLUX_CDA",
+                    "menuItemCode" : "enquiry",
+                    "title" : "Enquiry",
+                    "icon" : "",
+                    "link" : "/enquiry",
+                    "menuItemOrder" : 4,
+                    "subMenuItems" : [],
+                    "selectedFlag" : true
+                }, 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "FLUX_CDA",
+                    "menuItemCode" : "dashboard",
+                    "title" : "Dashboard",
+                    "icon" : "",
+                    "link" : "/dashboard",
+                    "menuItemOrder" : 4,
+                    "subMenuItems" : [],
+                    "selectedFlag" : true
+                }, 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "FLUX_CDA",
+                    "menuItemCode" : "reports",
+                    "title" : "Reports",
+                    "icon" : "",
+                    "link" : "/reports",
+                    "menuItemOrder" : 4,
+                    "subMenuItems" : [],
+                    "selectedFlag" : true
+                }
+            ],
+            "deletedFlag" : 0,
+            "selectedFlag" : true,
+            "menuGroupCode" : "matmenugroup",
+            "title" : "MainMenu",
+            "applicationCode" : "FLUX_CDA",
+            "tenantId" : "$tenantId",
+            "createdBy" : "SYSTEM",
+            "menuGroupOrder" : 1,
+            "createdDate" : "$date",
+            "lastUpdatedDate" : "$date",
+            "wfInstanceId" : "dsgsgs"
+        }, 
+        {
+            "menuItems" : [ 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "FLUX_CDA",
+                    "menuItemCode" : "enquiry1",
+                    "title" : "File Enquiry",
+                    "icon" : "assets/images/Artboard 2.svg",
+                    "link" : "/enquiry",
+                    "menuItemOrder" : 0,
+                    "subMenuItems" : [],
+                    "selectedFlag" : true
+                }, 
+                {
+                    "menuItemType" : "submenu",
+                    "applicationCode" : "FLUX_CDA",
+                    "menuItemCode" : "filesummary",
+                    "title" : "File Summary",
+                    "icon" : "assets/images/file-summary.svg",
+                    "link" : "",
+                    "menuItemOrder" : 1,
+                    "subMenuItems" : [ 
+                        {
+                            "menuItemType" : "submenu",
+                            "applicationCode" : "FLUX_CDA",
+                            "menuItemCode" : "mandateuploadgrid",
+                            "title" : "Mandate File Summary",
+                            "icon" : "",
+                            "link" : "/mandateuploadgrid",
+                            "menuItemOrder" : 0,
+                            "selectedFlag" : true
+                        }, 
+                        {
+                            "menuItemType" : "submenu",
+                            "applicationCode" : "FLUX_CDA",
+                            "menuItemCode" : "paymentuploadgrid",
+                            "title" : "Payment File Summary",
+                            "icon" : "",
+                            "link" : "/paymentuploadgrid",
+                            "menuItemOrder" : 1,
+                            "selectedFlag" : true
+                        }
+                    ],
+                    "selectedFlag" : true
+                }
+            ],
+            "deletedFlag" : 0,
+            "selectedFlag" : true,
+            "menuGroupCode" : "bulkmenugroup",
+            "title" : "BulkUploadMenu",
+            "applicationCode" : "FLUX_CDA",
+            "tenantId" : "$tenantId",
+            "createdBy" : "SYSTEM",
+            "menuGroupOrder" : 2,
+            "createdDate" : "$date",
+            "lastUpdatedDate" : "$date",
+            "wfInstanceId" : "fesff"
+        }
+    ],
+    "roleType" : "CHECKER",
+    "associatedUsers" : 5,
+    "tenantId" : "$tenantId",
+    "createdBy" : "SYSTEM",
+    "entityId" : "$entityId",
+    "createdDate" : "$date",
+    "lastUpdatedDate" : "$date",
+    "wfInstanceId" : "BbePIctKb",
+    "updatedBy" : "SYSTEM"
+},
+{
+    "txnType" : [],
+    "selectedFlag" : false,
+    "activationStatus" : "ACTIVE",
+    "processingStatus" : "AUTHORIZED",
+    "roleName" : "CONSOLE-MAKER",
+    "applicationCode" : "SANDSTORM",
+    "description" : "Console Maker",
+    "menuGroup" : [ 
+        {
+            "menuItems" : [ 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "SANDSTORM",
+                    "menuItemCode" : "roleManagement",
+                    "title" : "Role Management",
+                    "menuItemOrder" : 1,
+                    "link" : "roleManagement",
+                    "icon" : "evo-role",
+                    "selectedFlag" : true,
+                    "subMenuItems" : [ 
+                        {
+                            "menuItemType" : "button",
+                            "applicationCode" : "SANDSTORM",
+                            "menuItemCode" : "updateRole",
+                            "title" : "Modify",
+                            "menuItemOrder" : 1,
+                            "link" : "updateRole",
+                            "icon" : "evo-role",
+                            "selectedFlag" : true
+                        }
+                    ]
+                }, 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "SANDSTORM",
+                    "menuItemCode" : "entityManagement",
+                    "title" : "Entity Management",
+                    "menuItemOrder" : 2,
+                    "link" : "entityManagement",
+                    "icon" : "evo-entity",
+                    "subMenuItems" : [ 
+                        {
+                            "menuItemType" : "button",
+                            "applicationCode" : "SANDSTORM",
+                            "menuItemCode" : "updateEntity",
+                            "title" : "Modify",
+                            "menuItemOrder" : 1,
+                            "link" : "updateEntity",
+                            "icon" : "evo-entity",
+                            "selectedFlag" : true
+                        }
+                    ],
+                    "selectedFlag" : true
+                }, 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "SANDSTORM",
+                    "menuItemCode" : "userManagement",
+                    "title" : "User Management",
+                    "menuItemOrder" : 2,
+                    "link" : "userManagement",
+                    "icon" : "evo-user",
+                    "selectedFlag" : true,
+                    "subMenuItems" : [ 
+                        {
+                            "menuItemType" : "button",
+                            "applicationCode" : "SANDSTORM",
+                            "menuItemCode" : "updateUser",
+                            "title" : "Modify",
+                            "menuItemOrder" : 1,
+                            "link" : "updateUser",
+                            "icon" : "evo-user",
+                            "selectedFlag" : true
+                        }
+                    ]
+                }
+            ],
+            "deletedFlag" : 0,
+            "selectedFlag" : true,
+            "menuGroupCode" : "Administration",
+            "title" : "ADMINISTRATION",
+            "applicationCode" : "SANDSTORM",
+            "tenantId" : "$tenantId",
+            "createdBy" : "SYSTEM",
+            "menuGroupOrder" : 1,
+            "createdDate" : "$date",
+            "lastUpdatedDate" : "$date",
+            "wfInstanceId" : "fgdgf",
+            "__v" : 0
+        }, 
+        {
+            "menuItems" : [ 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "SANDSTORM",
+                    "menuItemCode" : "bulkUpload",
+                    "title" : "Bulk Upload",
+                    "menuItemOrder" : 3,
+                    "selectedFlag" : true,
+                    "icon" : "evo-bulkupload",
+                    "link" : "bulkUpload",
+                    "subMenuItems" : []
+                }
+            ],
+            "deletedFlag" : 0,
+            "selectedFlag" : true,
+            "menuGroupCode" : "maintenance",
+            "title" : "MAINTENANCE",
+            "applicationCode" : "SANDSTORM",
+            "tenantId" : "$tenantId",
+            "createdBy" : "SYSTEM",
+            "menuGroupOrder" : 2,
+            "createdDate" : "$date",
+            "lastUpdatedDate" : "$date",
+            "wfInstanceId" : ""
+        }
+    ],
+    "roleType" : "MAKER",
+    "associatedUsers" : 5,
+    "tenantId" : "$tenantId",
+    "createdBy" : "SYSTEM",
+    "entityId" : "$entityId",
+    "createdDate" : "$date",
+    "lastUpdatedDate" :"$date",
+    "wfInstanceId" : "vhDaS5ym1",
+    "updatedBy" : "SYSTEM"
+}  ,
+{
+    "txnType" : [],
+    "selectedFlag" : false,
+    "activationStatus" : "ACTIVE",
+    "processingStatus" : "AUTHORIZED",
+    "roleName" : "CONSOLE-CHECKER",
+    "applicationCode" : "SANDSTORM",
+    "description" : "Checker",
+    "menuGroup" : [ 
+        {
+            "menuItems" : [ 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "SANDSTORM",
+                    "menuItemCode" : "roleManagement",
+                    "title" : "Role Management",
+                    "menuItemOrder" : 1,
+                    "link" : "roleManagement",
+                    "icon" : "evo-role",
+                    "selectedFlag" : true,
+                    "subMenuItems" : [ 
+                        {
+                            "menuItemType" : "button",
+                            "applicationCode" : "SANDSTORM",
+                            "menuItemCode" : "approve-role",
+                            "title" : "Approve",
+                            "menuItemOrder" : 1,
+                            "link" : "approve",
+                            "icon" : "evo-approve",
+                            "selectedFlag" : true
+                        }, 
+                        {
+                            "menuItemType" : "button",
+                            "applicationCode" : "SANDSTORM",
+                            "menuItemCode" : "reject-role",
+                            "title" : "Reject",
+                            "menuItemOrder" : 3,
+                            "link" : "reject",
+                            "icon" : "evo-reject",
+                            "selectedFlag" : true
+                        }
+                    ]
+                }, 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "SANDSTORM",
+                    "menuItemCode" : "entityManagement",
+                    "title" : "Entity Management",
+                    "menuItemOrder" : 2,
+                    "link" : "entityManagement",
+                    "icon" : "evo-entity",
+                    "subMenuItems" : [ 
+                        {
+                            "menuItemType" : "button",
+                            "applicationCode" : "SANDSTORM",
+                            "menuItemCode" : "approve-entity",
+                            "title" : "Approve",
+                            "menuItemOrder" : 1,
+                            "link" : "approve",
+                            "icon" : "evo-approve",
+                            "selectedFlag" : true
+                        }, 
+                        {
+                            "menuItemType" : "button",
+                            "applicationCode" : "SANDSTORM",
+                            "menuItemCode" : "reject-entity",
+                            "title" : "Reject",
+                            "menuItemOrder" : 3,
+                            "link" : "reject",
+                            "icon" : "evo-reject",
+                            "selectedFlag" : true
+                        }
+                    ],
+                    "selectedFlag" : true
+                }, 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "SANDSTORM",
+                    "menuItemCode" : "userManagement",
+                    "title" : "User Management",
+                    "menuItemOrder" : 2,
+                    "link" : "userManagement",
+                    "icon" : "evo-user",
+                    "selectedFlag" : true,
+                    "subMenuItems" : [ 
+                        {
+                            "menuItemType" : "button",
+                            "applicationCode" : "SANDSTORM",
+                            "menuItemCode" : "approve-user",
+                            "title" : "Approve",
+                            "menuItemOrder" : 1,
+                            "link" : "approve",
+                            "icon" : "evo-approve",
+                            "selectedFlag" : true
+                        }, 
+                        {
+                            "menuItemType" : "button",
+                            "applicationCode" : "SANDSTORM",
+                            "menuItemCode" : "reject-user",
+                            "title" : "Reject",
+                            "menuItemOrder" : 3,
+                            "link" : "reject",
+                            "icon" : "evo-reject",
+                            "selectedFlag" : true
+                        }
+                    ]
+                }
+            ],
+            "deletedFlag" : 0,
+            "selectedFlag" : true,
+            "menuGroupCode" : "Administration",
+            "title" : "ADMINISTRATION",
+            "applicationCode" : "SANDSTORM",
+            "tenantId" : "$tenantId",
+            "createdBy" : "SYSTEM",
+            "menuGroupOrder" : 1,
+            "createdDate" : "$date",
+            "lastUpdatedDate" : "$date",
+            "wfInstanceId" : "fgdgf"
+        }, 
+        {
+            "menuItems" : [ 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "SANDSTORM",
+                    "menuItemCode" : "bulkUpload",
+                    "title" : "Bulk Upload",
+                    "menuItemOrder" : 3,
+                    "selectedFlag" : true,
+                    "icon" : "evo-bulkupload",
+                    "link" : "bulkUpload",
+                    "subMenuItems" : []
+                }
+            ],
+            "deletedFlag" : 0,
+            "selectedFlag" : true,
+            "menuGroupCode" : "maintenance",
+            "title" : "MAINTENANCE",
+            "applicationCode" : "SANDSTORM",
+            "tenantId" : "$tenantId",
+            "createdBy" : "SYSTEM",
+            "menuGroupOrder" : 2,
+            "createdDate" : "$date",
+            "lastUpdatedDate" : "$date",
+            "wfInstanceId" : ""
+        }
+    ],
+    "roleType" : "CHECKER",
+    "associatedUsers" : 5,
+    "tenantId" : "$tenantId",
+    "createdBy" : "SYSTEM",
+    "entityId" : "$entityId",
+    "createdDate" : "$date",
+    "lastUpdatedDate" : "$date",
+    "__v" : 0,
+    "wfInstanceId" : "P90xdR34j",
+    "updatedBy" : "SYSTEM"
+},
+{
+    "txnType" : [],
+    "selectedFlag" : false,
+    "activationStatus" : "ACTIVE",
+    "processingStatus" : "AUTHORIZED",
+    "roleName" : "CHARGES-MAKER",
+    "applicationCode" : "CHARGES",
+    "description" : "Charges Maker",
+    "menuGroup" : [ 
+        {
+            "menuItems" : [ 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "CHARGES",
+                    "menuItemCode" : "billing",
+                    "title" : "Bill Management",
+                    "menuItemOrder" : 1,
+                    "link" : "billing",
+                    "icon" : "evo-charges-billing",
+                    "selectedFlag" : false,
+                    "subMenuItems" : [ 
+                        {
+                            "menuItemType" : "button",
+                            "applicationCode" : "CHARGES",
+                            "menuItemCode" : "update-bill",
+                            "title" : "Modify",
+                            "menuItemOrder" : 2,
+                            "link" : "update",
+                            "icon" : "evo-update",
+                            "selectedFlag" : false
+                        }
+                    ]
+                }
+            ],
+            "deletedFlag" : 0,
+            "menuGroupCode" : "Charges",
+            "title" : "BILLMANAGEMENT",
+            "applicationCode" : "CHARGES",
+            "tenantId" : "$tenantId",
+            "createdBy" : "SYSTEM",
+            "menuGroupOrder" : 1,
+            "createdDate" : "$date",
+            "lastUpdatedDate" : "$date",
+            "wfInstanceId" : "fgdgf",
+            "wfInstanceStatus" : "AUTHORIZED"
+        }
+    ],
+    "roleType" : "MAKER",
+    "associatedUsers" : 5,
+    "tenantId" : "$tenantId",
+    "createdBy" : "SYSTEM",
+    "entityId" : "$entityId",
+    "createdDate" : "$date",
+    "lastUpdatedDate" : "$date",
+    "wfInstanceId" : "vhDaS5ym1",
+    "updatedBy" : "SYSTEM"
+},
+{
+    "txnType" : [],
+    "selectedFlag" : false,
+    "activationStatus" : "ACTIVE",
+    "processingStatus" : "AUTHORIZED",
+    "roleName" : "CHARGES-CHECKER",
+    "applicationCode" : "CHARGES",
+    "description" : "Checker",
+    "menuGroup" : [ 
+        {
+            "menuItems" : [ 
+                {
+                    "menuItemType" : "menu",
+                    "applicationCode" : "CHARGES",
+                    "menuItemCode" : "billing",
+                    "title" : "Bill Management",
+                    "menuItemOrder" : 1,
+                    "link" : "billing",
+                    "icon" : "evo-charges-billing",
+                    "selectedFlag" : false,
+                    "subMenuItems" : [ 
+                        {
+                            "menuItemType" : "button",
+                            "applicationCode" : "CHARGES",
+                            "menuItemCode" : "approve-bill",
+                            "title" : "Approve",
+                            "menuItemOrder" : 1,
+                            "link" : "approve",
+                            "icon" : "evo-approve",
+                            "selectedFlag" : false
+                        }, 
+                        {
+                            "menuItemType" : "button",
+                            "applicationCode" : "CHARGES",
+                            "menuItemCode" : "reject-bill",
+                            "title" : "Reject",
+                            "menuItemOrder" : 3,
+                            "link" : "reject",
+                            "icon" : "evo-reject",
+                            "selectedFlag" : false
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "roleType" : "CHECKER",
+    "associatedUsers" : 5,
+    "tenantId" : "$tenantId",
+    "createdBy" : "SYSTEM",
+    "entityId" : "$entityId",
+    "createdDate" :"$date",
+    "lastUpdatedDate" : "$date",
+    "wfInstanceId" : "P90xdR34j",
+    "updatedBy" : "SYSTEM"
+}
+]
