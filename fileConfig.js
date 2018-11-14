@@ -1,62 +1,63 @@
 const path = require('path');
 const dir = process.env.SCRIPT_HOME || '/data/SA/Script';
+var k=path.resolve(__dirname,'./data');
 
 module.exports.configure = [{
-  template: './data/applications.vm',
+  template: `${k}/applications.vm`,
   fileName: 'applications.json',
   outputdir: `${dir}`,
   context: './context.js',
   output: `${dir}/applications.json`
 },
 {
-  template: './data/entities.vm',
-  fileName: 'entites.json',
+  template: `${k}/entities.vm`,
+  fileName: 'entities.json',
   outputdir: `${dir}`,
   context: './context.js',
   output: `${dir}/entities.json`
 
 }, {
-  template: './data/mastercurrencies.vm',
+  template: `${k}/mastercurrencies.vm`,
   fileName: 'mastercurrencies.json',
   outputdir: `${dir}`,
   context: './context.js',
   output: `${dir}/mastercurrencies.json`
 }, {
-  template: './data/mastertimezones.vm',
+  template: `${k}/mastertimezones.vm`,
   fileName: 'mastertimezones.json',
   outputdir: `${dir}`,
   context: './context.js',
   output: `${dir}/mastertimezones.json`
 },
 {
-  template: './data/menus.vm',
+  template: `${k}/menus.vm`,
   fileName: 'menus.json',
   outputdir: `${dir}`,
   context: './context.js',
   output: `${dir}/menus.json`
 }, {
-  template: './data/roles.vm',
+  template: `${k}/roles.vm`,
   fileName: 'roles.json',
   context: './context.js',
   outputdir: `${dir}`,
   output: `${dir}/roles.json`
 },
 {
-  template: './data/supporteddateformats.vm',
+  template: `${k}/supporteddateformats.vm`,
   fileName: 'supporteddateformats.json',
   context: './context.js',
   outputdir: `${dir}`,
   output: `${dir}/supporteddateformats.json`
 },
 {
-  template: './data/lookups.vm',
+  template: `${k}/lookups.vm`,
   fileName: 'lookups.json',
   outputdir: `${dir}`,
   context: './context.js',
   output: `${dir}/lookups.json`
 },
 {
-  template: './data/swesetups.vm',
+  template: `${k}/swesetups.vm`,
   fileName: 'swesetups.json',
   context: './context.js',
   outputdir: `${dir}`,

@@ -31,7 +31,7 @@ module.exports.seedMongo = (context) => {
     });
 }
 
-function create(files, ctx, callback) {
+function create(files, context, callback) {
     files.forEach(file => {
         const outputdir = file.outputdir;
         // const finalDir = `${outputdir}/${file.mkpath}`;

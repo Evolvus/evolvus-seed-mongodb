@@ -35,17 +35,6 @@
                 {
                     "menuItemType" : "menu",
                     "applicationCode" : "FLUX_CDA",
-                    "menuItemCode" : "outwardpayment",
-                    "title" : "Outward Payments",
-                    "icon" : "",
-                    "link" : "",
-                    "menuItemOrder" : 4.0,
-                    "subMenuItems" : [],
-                    "selectedFlag" : true
-                }, 
-                {
-                    "menuItemType" : "menu",
-                    "applicationCode" : "FLUX_CDA",
                     "menuItemCode" : "enquiry",
                     "title" : "Enquiry",
                     "icon" : "",
@@ -191,17 +180,7 @@
     "menuGroup" : [ 
         {
             "menuItems" : [ 
-                {
-                    "menuItemType" : "menu",
-                    "applicationCode" : "FLUX_CDA",
-                    "menuItemCode" : "bulkupload",
-                    "title" : "Bulk Upload",
-                    "icon" : "",
-                    "link" : "/bulkupload",
-                    "menuItemOrder" : 0,
-                    "subMenuItems" : [],
-                    "selectedFlag" : true
-                }, 
+ 
                 {
                     "menuItemType" : "menu",
                     "applicationCode" : "FLUX_CDA",
@@ -218,17 +197,6 @@
                     "applicationCode" : "FLUX_CDA",
                     "menuItemCode" : "emandate",
                     "title" : "Emandates",
-                    "icon" : "",
-                    "link" : "",
-                    "menuItemOrder" : 4,
-                    "subMenuItems" : [],
-                    "selectedFlag" : true
-                }, 
-                {
-                    "menuItemType" : "menu",
-                    "applicationCode" : "FLUX_CDA",
-                    "menuItemCode" : "outwardpayment",
-                    "title" : "Outward Payments",
                     "icon" : "",
                     "link" : "",
                     "menuItemOrder" : 4,
