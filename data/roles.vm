@@ -386,28 +386,6 @@
                 {
                     "menuItemType" : "menu",
                     "applicationCode" : "SANDSTORM",
-                    "menuItemCode" : "entityManagement",
-                    "title" : "Entity Management",
-                    "menuItemOrder" : 2,
-                    "link" : "entityManagement",
-                    "icon" : "evo-entity",
-                    "subMenuItems" : [ 
-                        {
-                            "menuItemType" : "button",
-                            "applicationCode" : "SANDSTORM",
-                            "menuItemCode" : "updateEntity",
-                            "title" : "Modify",
-                            "menuItemOrder" : 1,
-                            "link" : "updateEntity",
-                            "icon" : "evo-entity",
-                            "selectedFlag" : true
-                        }
-                    ],
-                    "selectedFlag" : true
-                }, 
-                {
-                    "menuItemType" : "menu",
-                    "applicationCode" : "SANDSTORM",
                     "menuItemCode" : "userManagement",
                     "title" : "User Management",
                     "menuItemOrder" : 2,
@@ -520,38 +498,6 @@
                             "selectedFlag" : true
                         }
                     ]
-                }, 
-                {
-                    "menuItemType" : "menu",
-                    "applicationCode" : "SANDSTORM",
-                    "menuItemCode" : "entityManagement",
-                    "title" : "Entity Management",
-                    "menuItemOrder" : 2,
-                    "link" : "entityManagement",
-                    "icon" : "evo-entity",
-                    "subMenuItems" : [ 
-                        {
-                            "menuItemType" : "button",
-                            "applicationCode" : "SANDSTORM",
-                            "menuItemCode" : "approve-entity",
-                            "title" : "Approve",
-                            "menuItemOrder" : 1,
-                            "link" : "approve",
-                            "icon" : "evo-approve",
-                            "selectedFlag" : true
-                        }, 
-                        {
-                            "menuItemType" : "button",
-                            "applicationCode" : "SANDSTORM",
-                            "menuItemCode" : "reject-entity",
-                            "title" : "Reject",
-                            "menuItemOrder" : 3,
-                            "link" : "reject",
-                            "icon" : "evo-reject",
-                            "selectedFlag" : true
-                        }
-                    ],
-                    "selectedFlag" : true
                 }, 
                 {
                     "menuItemType" : "menu",
